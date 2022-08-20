@@ -31,7 +31,7 @@ InputData.value = ymd;
 const button = document.querySelector(".submit");
 button.addEventListener("click", () => __awaiter(void 0, void 0, void 0, function* () {
     yield liff.init({ liffId: "1657402011-jvbPEQOA" });
-    liff.sendMessages([
+    yield liff.sendMessages([
         {
             type: "text",
             text: "Hello, World!",
