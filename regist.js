@@ -37,4 +37,5 @@ button.addEventListener("click", () => __awaiter(void 0, void 0, void 0, functio
             text: "Hello, World!",
         },
     ]);
+    liff.closeWindow();
 }));
