@@ -24,6 +24,7 @@
     ])
         .then(() => {
             window.alert('Message sent');
+            liff.closeWindow();
         })
         .catch((error) => {
             window.alert('Error sending message: ' + error);
